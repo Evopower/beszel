@@ -1,5 +1,0 @@
-- name: Upload executable
-  uses: actions/upload-artifact@v2
-  with:
-    name: my-executable # 这是你给这个构件起的名字
-    path: dist/beszel-agent_windows_arm64.zip # 这是你的可执行文件的路径
